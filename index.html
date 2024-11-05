@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Consulta CEP e Preenchimento de Formulario</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="programa.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <pre>
+            <input type="text" id="cep" placeholder="Digite o CEP">
+            <button id="buscar">buscar</button>
+            <form id="formEndereco">
+                Longradouro: <input type="text" id="logradouro" name="logradouro" disabled>
+                Complemento: <input type="text" id="complemento" name="complemento">
+                bairro:      <input type="text" id="bairro" name="bairro" disabled>
+                Cidade:      <input type="text" id="localidade" name="localidade" disabled>
+                Estado:      <input type="text" id="uf" name="uf" disabled>
+                Região:      <input type="text" id="regiao" name="regiao" disabled>
+                DDD:         <input type="text" id="ddd" name="ddd" disabled>
+            </form>
+        </pre>
+    </div>
+</body>
+</html>
